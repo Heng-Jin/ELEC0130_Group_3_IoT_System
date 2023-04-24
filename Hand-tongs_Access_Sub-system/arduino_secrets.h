@@ -1,0 +1,29 @@
+// Fill in  your WiFi networks SSID and password
+// #define SECRET_SSID "bestIoT"
+// #define SECRET_PASS "Q1w2e3r4t5y6u7,."
+
+#define SECRET_SSID "iQOO Neo5_jin"
+#define SECRET_PASS "hc3ju3wx"
+
+// Fill in the hostname of your AWS IoT broker
+#define SECRET_BROKER "ae4xgftvpwfb4-ats.iot.eu-west-2.amazonaws.com"
+
+// Fill in the boards public certificate
+const char SECRET_CERTIFICATE[] = R"(
+-----BEGIN CERTIFICATE-----
+MIICiTCCAXGgAwIBAgIVAJBPpf/clFEwMp65p/wwYsOimDA7MA0GCSqGSIb3DQEB
+CwUAME0xSzBJBgNVBAsMQkFtYXpvbiBXZWIgU2VydmljZXMgTz1BbWF6b24uY29t
+IEluYy4gTD1TZWF0dGxlIFNUPVdhc2hpbmd0b24gQz1VUzAeFw0yMzAzMDcxMjQw
+MzVaFw00OTEyMzEyMzU5NTlaMBgxFjAUBgNVBAMTDU15TUtSV2lGaTEwMTAwWTAT
+BgcqhkjOPQIBBggqhkjOPQMBBwNCAASenarLIxFfbFbnV+J+k6mMWFPzUx8AAVPO
+Vx4Yo1NAsWRGhCdtqiSc7TJ+kq/XdzB0YAPC/moUdo/MQEJ/Sv04o2AwXjAfBgNV
+HSMEGDAWgBTUnoKS4HXcbq7DdFADmB+Cjwv8+zAdBgNVHQ4EFgQUFPvYI9jaE+s9
+t2Lt+lKNslZReE0wDAYDVR0TAQH/BAIwADAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZI
+hvcNAQELBQADggEBACGPxLTqiMLq5oR6r7lqldUp4wNTiLazx5JXSQJ0IR+HZbJ9
+itmBo2x1wWngI6ZDBjK4Zxu/1kyf0G+ffeHUHWGxCgBgPbGLMGtVlHvphuD5h55e
+dQrzH+FBl0V69b0b5q7ActLA5qsQG7SyqR84dX5syRR0QbnzitI4VO58c5yol4Qa
+TQx7YgXGncIFvETpdPtM8xBIButtjjYUusinhkJ8rpaaCBIS1xEO/zipMHxLTiVV
+G1bDht+zL0tTP9pES+ZxG3RUiQcQUJt2DX2rXq0UoCSAYxnXPOLtpftmM622bYzV
+hNm0RoGgZqgNLgXaJGiIfX0N1hEocix1YK6Wp3M=
+-----END CERTIFICATE-----
+)";
